@@ -17,7 +17,6 @@ public class LissajousLineControl : MonoBehaviour {
 
 		//line.material.color = Color.green;
 		line.material = new Material (Shader.Find ("Particles/Additive"));
-		//line.material = new Material (Shader.Find ("Additive"));
 		line.SetWidth (0.05f, 0.05f);
 		line.SetVertexCount (lineDrawNum);
 		line.SetColors (startColor, endColor);
@@ -39,15 +38,9 @@ public class LissajousLineControl : MonoBehaviour {
 		}
 
 	}
-
-	
+		
 	// Update is called once per frame
 	void Update () {
-
 		drawLine ();
-
-		//GameObject g = GameObject.Find ("LineManage");
-		//float theta = Time.time * Mathf.PI/180*20;
-		//g.transform.Rotate(Vector3.left * Time.deltaTime*100, Space.World);
 	}
 }
