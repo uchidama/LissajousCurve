@@ -11,13 +11,19 @@ public class LissajousBallControl : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
 
-		for(float angle = 0;angle < 360f; angle+=360/30){
+		int LINENUM = 7;
+		float angle = 0f;
+
+		for(int i = 0;i < LINENUM; ++i){
 			GameObject l = (GameObject)Instantiate (line, transform.position, Quaternion.AngleAxis(angle, Vector3.up));
 			l.transform.parent = this.transform;
 
 			LissajousLineControl lis = l.GetComponent<LissajousLineControl>();
 			lis.startColor = this.startColor;
 			lis.endColor = this.endColor;
+
+			angle += 5f;
+			//angle += 360f/LINENUM;
 		}
 
 	}

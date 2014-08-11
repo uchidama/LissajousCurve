@@ -4,7 +4,7 @@ using System.Collections;
 public class LissajousLineControl : MonoBehaviour {
 
 	LineRenderer line;
-	int lineDrawNum = 30;
+	int lineDrawNum = 120;
 
 	public Color32 startColor;
 	public Color32 endColor;
