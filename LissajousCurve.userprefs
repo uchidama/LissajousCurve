@@ -1,10 +1,11 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/AppManage.cs">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/ScreenCapture.js">
     <Files>
-      <File FileName="Assets/LissajousLineControl.cs" Line="44" Column="15" />
-      <File FileName="Assets/LissajousBallControl.cs" Line="24" Column="1" />
-      <File FileName="Assets/AppManage.cs" Line="28" Column="1" />
+      <File FileName="Assets/AppManage.cs" Line="7" Column="1" />
+      <File FileName="Assets/LissajousLineControl.cs" Line="1" Column="1" />
+      <File FileName="Assets/LissajousBallControl.cs" Line="18" Column="56" />
+      <File FileName="Assets/ScreenCapture.js" Line="19" Column="80" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
